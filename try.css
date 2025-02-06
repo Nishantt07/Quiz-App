@@ -1,0 +1,331 @@
+.container {
+    max-width: 61vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 73vh;
+    min-width: -14vh;
+    width: 389px;
+    background-color: #101820;
+    border: 5px solid white;
+    border-radius: 30px;
+
+    /* display: none; */
+}
+
+body {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    background-color: #FEE715;
+    height: 95vh;
+    
+}
+
+h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categoryintro {
+    font-size: 10px;
+    position: relative;
+    top: -30px;
+}
+
+.quizintro {
+    position: relative;
+    top: -15px;
+}
+
+.buttonsofcategory {
+    font-size: 21px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border: 5px solid #8B8000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonsofcategory:hover{
+    transition: background 0.2s ease;
+    background-color: #ffef5b;
+}
+.buttonsofcategory:active{
+    background-color: #ffef5b;
+}
+
+
+
+.categorytypes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 17px;
+}
+.Programing{
+    width: 172px;
+}
+
+.Geography{
+    width: 172px;
+}
+.Mathematics{
+    width: 172px;
+}
+.Entertainment{
+    width: 172px;
+}
+.lengthoquiz {
+    padding: 10px;
+    position: relative;
+    margin-top: 27px;
+    font-size: 14px;
+        border: 5px solid #8B8000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.quiz-button{
+    
+    position: relative;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    top: 15px;
+    cursor: pointer;
+    border: 5px solid #8B8000;
+    border-radius: 10px;
+}
+
+.lengthoquiz:hover{
+    background-color: #ffef5b;
+    transition: background 0.2s ease;
+
+}
+.lengthoquiz:active{
+    background-color: #ffef5b;
+}
+
+.quiz-button:hover{
+    background-color: #ffef5b;
+    transition: background 0.2s ease;
+}
+.quiz-button:active{
+    background-color: #ffef5b;
+    
+}
+
+.itssmall {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.quizcontainer {
+    max-width: 79vh;
+    background-color: #101820;
+    min-height: 76vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+
+.quiz-intro{
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    height: 50px;
+/* cursor:; */
+
+}
+
+.quizquestion{
+font-size: 10px;
+/* display: flex;
+justify-content: center;
+align-content: center; */
+height: 70px;
+margin-left: 20px;
+/* display: flex; */
+margin-top: 20px;
+
+}
+ul{
+    list-style: none;
+}
+.singleline {
+    height: 2px;
+    max-width: 75vh;
+    background-color: #FEE715;
+}
+ul li{
+    color: black;
+    background-color: white;
+    /* height: 40px; */
+    min-height: 5vh;
+    align-content: center;
+    font-size: 20px;
+    padding-left: 15px;
+    margin-right: 27px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    ;
+    border: 2px solid  #8B8000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unorderlist {
+    max-width: 69vh;
+    display: flex
+;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+}
+ul li:hover{
+    background-color:#F0E68C;
+    cursor: pointer;
+}
+
+.footerdiv{
+    display: flex;
+    font-size: 8px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+.questionchangebutton{
+    /* position: relative; */
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* top: 33px; */
+    cursor: pointer;
+    border: 0px solid #8B8000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    background-color: #ffef5b;
+    position: relative;
+    top: 10px;
+}
+.questionchangebutton:hover{
+background-color: #8B8000;
+}
+.questionchangebutton:active{
+    background-color: #ffef5b;
+    }
+    
+.noofquestions{
+    position: relative;
+    top: 10px;
+}
+
+.endingpage{
+    width: 500px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101820;
+    font-size: 10px;
+    border-radius: 17px;
+    display: none;
+}
+
+.input{
+    font-family:sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.image{
+    width: 120px;
+    margin-top: 60px;
+}
+.quizcompletedheading{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.itsbutton{
+        
+       /* position: relative; */
+       font-size: 18px;
+       padding-left: 16px;
+       padding-right: 16px;
+       padding-top: 8px;
+       padding-bottom: 8px;
+       /* top: 33px; */
+       cursor: pointer;
+       border: 0px solid #8B8000;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       border-radius: 5px;
+       background-color: #ffef5b;
+       position: relative;
+       top: 20px;
+}
+
+.itsbutton:hover{
+    background-color: #8B8000;
+    }
+.itsbutton:active{
+     background-color: #ffef5b;
+        }
+
+        .questions-intro {
+            color: white;
+            margin-top: 23px;
+            font-size: 21px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+.quizcompletedheading{
+display: flex;
+justify-content: center;
+}
+
+.quizcompletedheading{
+    display: flex;
+justify-content: center;
+}
+.tryagain{
+    display: flex;
+    justify-content: center;
+}
+.imageofcongo{
+    display: flex;
+    justify-content: center;
+}
+
+#right{
+margin-right: 10px;
+display: flex;
+align-self: center;
+color: forestgreen;
+}
+
+.wrong{
+    margin-right: 10px;
+    display: flex;
+    align-self: center;
+    color: red;
+}
